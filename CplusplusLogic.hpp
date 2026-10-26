@@ -21,7 +21,7 @@
 struct XYcoords{
     std::vector<float> XYcoordsVector; //assumes each y-coord is a fixed distance away. pass this interval as an argument
     float xInterval;
-    int fyl;
+    int fyld;
     
     std::vector<std::vector<float>> TermsAndExponents; //each vector corresponds to the term Number and the vector element contains the term's power. Should be dynamically resized with the number of terms
 };
