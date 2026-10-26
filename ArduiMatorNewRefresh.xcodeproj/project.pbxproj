@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFE8D9CC303FDA00002B3C89 /* ArduiMatorNewRefreshApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE8D9CB303FDA00002B3C89 /* ArduiMatorNewRefreshApp.swift */; };
+		EFE8D9CE303FDA00002B3C89 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE8D9CD303FDA00002B3C89 /* ContentView.swift */; };
+		EFE8D9D0303FDA12002B3C89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFE8D9CF303FDA12002B3C89 /* Assets.xcassets */; };
+		EFE8D9D3303FDA12002B3C89 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFE8D9D2303FDA12002B3C89 /* Preview Assets.xcassets */; };
+		EFE8D9DE303FDA13002B3C89 /* ArduiMatorNewRefreshTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE8D9DD303FDA13002B3C89 /* ArduiMatorNewRefreshTests.swift */; };
+		EFE8D9E8303FDA13002B3C89 /* ArduiMatorNewRefreshUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE8D9E7303FDA13002B3C89 /* ArduiMatorNewRefreshUITests.swift */; };
+		EFE8D9EA303FDA13002B3C89 /* ArduiMatorNewRefreshUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE8D9E9303FDA13002B3C89 /* ArduiMatorNewRefreshUITestsLaunchTests.swift */; };
+		EFE8D9F9303FDA57002B3C89 /* CplusplusLogic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFE8D9F7303FDA57002B3C89 /* CplusplusLogic.cpp */; };
+		EFE8D9FB303FDA75002B3C89 /* ObjectiveCFile.mm in Sources */ = {isa = PBXBuildFile; fileRef = EFE8D9FA303FDA75002B3C89 /* ObjectiveCFile.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFE8D9DA303FDA13002B3C89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFE8D9C0303FDA00002B3C89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFE8D9C7303FDA00002B3C89;
+			remoteInfo = ArduiMatorNewRefresh;
+		};
+		EFE8D9E4303FDA13002B3C89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFE8D9C0303FDA00002B3C89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFE8D9C7303FDA00002B3C89;
+			remoteInfo = ArduiMatorNewRefresh;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFE8D9C8303FDA00002B3C89 /* ArduiMatorNewRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArduiMatorNewRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFE8D9CB303FDA00002B3C89 /* ArduiMatorNewRefreshApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArduiMatorNewRefreshApp.swift; sourceTree = "<group>"; };
+		EFE8D9CD303FDA00002B3C89 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EFE8D9CF303FDA12002B3C89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFE8D9D2303FDA12002B3C89 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EFE8D9D4303FDA12002B3C89 /* ArduiMatorNewRefresh.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ArduiMatorNewRefresh.entitlements; sourceTree = "<group>"; };
+		EFE8D9D9303FDA13002B3C89 /* ArduiMatorNewRefreshTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArduiMatorNewRefreshTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFE8D9DD303FDA13002B3C89 /* ArduiMatorNewRefreshTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArduiMatorNewRefreshTests.swift; sourceTree = "<group>"; };
+		EFE8D9E3303FDA13002B3C89 /* ArduiMatorNewRefreshUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArduiMatorNewRefreshUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFE8D9E7303FDA13002B3C89 /* ArduiMatorNewRefreshUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArduiMatorNewRefreshUITests.swift; sourceTree = "<group>"; };
+		EFE8D9E9303FDA13002B3C89 /* ArduiMatorNewRefreshUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArduiMatorNewRefreshUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EFE8D9F6303FDA56002B3C89 /* ArduiMatorNewRefresh-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ArduiMatorNewRefresh-Bridging-Header.h"; sourceTree = "<group>"; };
+		EFE8D9F7303FDA57002B3C89 /* CplusplusLogic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CplusplusLogic.cpp; sourceTree = "<group>"; };
+		EFE8D9F8303FDA57002B3C89 /* CplusplusLogic.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CplusplusLogic.hpp; sourceTree = "<group>"; };
+		EFE8D9FA303FDA75002B3C89 /* ObjectiveCFile.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ObjectiveCFile.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFE8D9C5303FDA00002B3C89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE8D9D6303FDA13002B3C89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE8D9E0303FDA13002B3C89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFE8D9BF303FDA00002B3C89 = {
+			isa = PBXGroup;
+			children = (
+				EFE8D9CA303FDA00002B3C89 /* ArduiMatorNewRefresh */,
+				EFE8D9DC303FDA13002B3C89 /* ArduiMatorNewRefreshTests */,
+				EFE8D9E6303FDA13002B3C89 /* ArduiMatorNewRefreshUITests */,
+				EFE8D9C9303FDA00002B3C89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFE8D9C9303FDA00002B3C89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFE8D9C8303FDA00002B3C89 /* ArduiMatorNewRefresh.app */,
+				EFE8D9D9303FDA13002B3C89 /* ArduiMatorNewRefreshTests.xctest */,
+				EFE8D9E3303FDA13002B3C89 /* ArduiMatorNewRefreshUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFE8D9CA303FDA00002B3C89 /* ArduiMatorNewRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				EFE8D9CB303FDA00002B3C89 /* ArduiMatorNewRefreshApp.swift */,
+				EFE8D9CD303FDA00002B3C89 /* ContentView.swift */,
+				EFE8D9F7303FDA57002B3C89 /* CplusplusLogic.cpp */,
+				EFE8D9F8303FDA57002B3C89 /* CplusplusLogic.hpp */,
+				EFE8D9CF303FDA12002B3C89 /* Assets.xcassets */,
+				EFE8D9D4303FDA12002B3C89 /* ArduiMatorNewRefresh.entitlements */,
+				EFE8D9D1303FDA12002B3C89 /* Preview Content */,
+				EFE8D9F6303FDA56002B3C89 /* ArduiMatorNewRefresh-Bridging-Header.h */,
+				EFE8D9FA303FDA75002B3C89 /* ObjectiveCFile.mm */,
+			);
+			path = ArduiMatorNewRefresh;
+			sourceTree = "<group>";
+		};
+		EFE8D9D1303FDA12002B3C89 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EFE8D9D2303FDA12002B3C89 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EFE8D9DC303FDA13002B3C89 /* ArduiMatorNewRefreshTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFE8D9DD303FDA13002B3C89 /* ArduiMatorNewRefreshTests.swift */,
+			);
+			path = ArduiMatorNewRefreshTests;
+			sourceTree = "<group>";
+		};
+		EFE8D9E6303FDA13002B3C89 /* ArduiMatorNewRefreshUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EFE8D9E7303FDA13002B3C89 /* ArduiMatorNewRefreshUITests.swift */,
+				EFE8D9E9303FDA13002B3C89 /* ArduiMatorNewRefreshUITestsLaunchTests.swift */,
+			);
+			path = ArduiMatorNewRefreshUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFE8D9C7303FDA00002B3C89 /* ArduiMatorNewRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFE8D9ED303FDA13002B3C89 /* Build configuration list for PBXNativeTarget "ArduiMatorNewRefresh" */;
+			buildPhases = (
+				EFE8D9C4303FDA00002B3C89 /* Sources */,
+				EFE8D9C5303FDA00002B3C89 /* Frameworks */,
+				EFE8D9C6303FDA00002B3C89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArduiMatorNewRefresh;
+			productName = ArduiMatorNewRefresh;
+			productReference = EFE8D9C8303FDA00002B3C89 /* ArduiMatorNewRefresh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFE8D9D8303FDA13002B3C89 /* ArduiMatorNewRefreshTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFE8D9F0303FDA13002B3C89 /* Build configuration list for PBXNativeTarget "ArduiMatorNewRefreshTests" */;
+			buildPhases = (
+				EFE8D9D5303FDA13002B3C89 /* Sources */,
+				EFE8D9D6303FDA13002B3C89 /* Frameworks */,
+				EFE8D9D7303FDA13002B3C89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFE8D9DB303FDA13002B3C89 /* PBXTargetDependency */,
+			);
+			name = ArduiMatorNewRefreshTests;
+			productName = ArduiMatorNewRefreshTests;
+			productReference = EFE8D9D9303FDA13002B3C89 /* ArduiMatorNewRefreshTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFE8D9E2303FDA13002B3C89 /* ArduiMatorNewRefreshUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFE8D9F3303FDA13002B3C89 /* Build configuration list for PBXNativeTarget "ArduiMatorNewRefreshUITests" */;
+			buildPhases = (
+				EFE8D9DF303FDA13002B3C89 /* Sources */,
+				EFE8D9E0303FDA13002B3C89 /* Frameworks */,
+				EFE8D9E1303FDA13002B3C89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFE8D9E5303FDA13002B3C89 /* PBXTargetDependency */,
+			);
+			name = ArduiMatorNewRefreshUITests;
+			productName = ArduiMatorNewRefreshUITests;
+			productReference = EFE8D9E3303FDA13002B3C89 /* ArduiMatorNewRefreshUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFE8D9C0303FDA00002B3C89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					EFE8D9C7303FDA00002B3C89 = {
+						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
+					};
+					EFE8D9D8303FDA13002B3C89 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = EFE8D9C7303FDA00002B3C89;
+					};
+					EFE8D9E2303FDA13002B3C89 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = EFE8D9C7303FDA00002B3C89;
+					};
+				};
+			};
+			buildConfigurationList = EFE8D9C3303FDA00002B3C89 /* Build configuration list for PBXProject "ArduiMatorNewRefresh" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFE8D9BF303FDA00002B3C89;
+			productRefGroup = EFE8D9C9303FDA00002B3C89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFE8D9C7303FDA00002B3C89 /* ArduiMatorNewRefresh */,
+				EFE8D9D8303FDA13002B3C89 /* ArduiMatorNewRefreshTests */,
+				EFE8D9E2303FDA13002B3C89 /* ArduiMatorNewRefreshUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFE8D9C6303FDA00002B3C89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE8D9D3303FDA12002B3C89 /* Preview Assets.xcassets in Resources */,
+				EFE8D9D0303FDA12002B3C89 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE8D9D7303FDA13002B3C89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE8D9E1303FDA13002B3C89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFE8D9C4303FDA00002B3C89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE8D9F9303FDA57002B3C89 /* CplusplusLogic.cpp in Sources */,
+				EFE8D9FB303FDA75002B3C89 /* ObjectiveCFile.mm in Sources */,
+				EFE8D9CE303FDA00002B3C89 /* ContentView.swift in Sources */,
+				EFE8D9CC303FDA00002B3C89 /* ArduiMatorNewRefreshApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE8D9D5303FDA13002B3C89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE8D9DE303FDA13002B3C89 /* ArduiMatorNewRefreshTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE8D9DF303FDA13002B3C89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE8D9E8303FDA13002B3C89 /* ArduiMatorNewRefreshUITests.swift in Sources */,
+				EFE8D9EA303FDA13002B3C89 /* ArduiMatorNewRefreshUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFE8D9DB303FDA13002B3C89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFE8D9C7303FDA00002B3C89 /* ArduiMatorNewRefresh */;
+			targetProxy = EFE8D9DA303FDA13002B3C89 /* PBXContainerItemProxy */;
+		};
+		EFE8D9E5303FDA13002B3C89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFE8D9C7303FDA00002B3C89 /* ArduiMatorNewRefresh */;
+			targetProxy = EFE8D9E4303FDA13002B3C89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EFE8D9EB303FDA13002B3C89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFE8D9EC303FDA13002B3C89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		EFE8D9EE303FDA13002B3C89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = ArduiMatorNewRefresh/ArduiMatorNewRefresh.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ArduiMatorNewRefresh/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RexTheDinoINC.ArduiMatorNewRefresh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ArduiMatorNewRefresh/ArduiMatorNewRefresh-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EFE8D9EF303FDA13002B3C89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = ArduiMatorNewRefresh/ArduiMatorNewRefresh.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ArduiMatorNewRefresh/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RexTheDinoINC.ArduiMatorNewRefresh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ArduiMatorNewRefresh/ArduiMatorNewRefresh-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EFE8D9F1303FDA13002B3C89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RexTheDinoINC.ArduiMatorNewRefreshTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArduiMatorNewRefresh.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ArduiMatorNewRefresh";
+			};
+			name = Debug;
+		};
+		EFE8D9F2303FDA13002B3C89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RexTheDinoINC.ArduiMatorNewRefreshTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArduiMatorNewRefresh.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ArduiMatorNewRefresh";
+			};
+			name = Release;
+		};
+		EFE8D9F4303FDA13002B3C89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RexTheDinoINC.ArduiMatorNewRefreshUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ArduiMatorNewRefresh;
+			};
+			name = Debug;
+		};
+		EFE8D9F5303FDA13002B3C89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RexTheDinoINC.ArduiMatorNewRefreshUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ArduiMatorNewRefresh;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFE8D9C3303FDA00002B3C89 /* Build configuration list for PBXProject "ArduiMatorNewRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFE8D9EB303FDA13002B3C89 /* Debug */,
+				EFE8D9EC303FDA13002B3C89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFE8D9ED303FDA13002B3C89 /* Build configuration list for PBXNativeTarget "ArduiMatorNewRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFE8D9EE303FDA13002B3C89 /* Debug */,
+				EFE8D9EF303FDA13002B3C89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFE8D9F0303FDA13002B3C89 /* Build configuration list for PBXNativeTarget "ArduiMatorNewRefreshTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFE8D9F1303FDA13002B3C89 /* Debug */,
+				EFE8D9F2303FDA13002B3C89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFE8D9F3303FDA13002B3C89 /* Build configuration list for PBXNativeTarget "ArduiMatorNewRefreshUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFE8D9F4303FDA13002B3C89 /* Debug */,
+				EFE8D9F5303FDA13002B3C89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFE8D9C0303FDA00002B3C89 /* Project object */;
+}
